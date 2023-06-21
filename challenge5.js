@@ -18,3 +18,6 @@ if(numero2 % 2 === 0){
 }else{
     console.log(`el segundo numero ${numero2} es impar`)
 }
+
+document.write("los numeros son " + numero1 + " y ")
+document.write(numero2)
