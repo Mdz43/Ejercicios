@@ -10,3 +10,20 @@ if(edad < 18 && edad >= 10 && tutor.toLowerCase().includes("si")){
 }else{
     alert("No podes entrar aunque tengas tutor")
 }
+
+
+//cementerio embrujado
+
+let anteojos = prompt("traes anteojos?").toLowerCase()
+
+switch (anteojos) {
+    case "si": 
+        console.log("la casa está construida sobre un cementerio")
+        break;
+    case "no": 
+        console.log("compras la casa sin saber nada")
+        break;
+    default:
+        console.log("no respondiste con si o no")
+        break;
+}
