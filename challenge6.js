@@ -27,3 +27,15 @@ switch (anteojos) {
         console.log("no respondiste con si o no")
         break;
 }
+
+
+//porque la luna es mayor que el sol
+
+let pregunta = prompt("porque la luna es mayor que el sol?").toLowerCase();
+let respuesta = "porque sale de noche";
+while (pregunta != respuesta) {
+    alert("mal mal mal")
+    pregunta = prompt("responde de nuevo")
+};
+
+alert("bien pasaste!");
